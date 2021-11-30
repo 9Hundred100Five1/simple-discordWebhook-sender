@@ -7,4 +7,14 @@ import Send
 
 content = input() # 보낼 메시지
 a = Send.sender('웹훅주소', content, '웹훅 이름')
-a.sends() # 
+a.sends() # ```
+
+반복해서 쓰고싶으면 while문 추가가능
+```python
+import Send
+
+while True:
+    content = input() # 보낼 메시지
+    a = Send.sender('웹훅주소', content, '웹훅 이름')
+    a.sends() # 
+
