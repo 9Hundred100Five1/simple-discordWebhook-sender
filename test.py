@@ -1,6 +1,6 @@
 import requests 
 
-url = "https://discord.com/api/webhooks/909804938396323860/ERHlv2euuke_8GQHDyRb2zCDVcvdFUyWYd1pls3pN9LEtWfNVLlv86PXbK0sAisQ8F7p" 
+url = "" 
     i = input()
     data = {
         "content" : i,
