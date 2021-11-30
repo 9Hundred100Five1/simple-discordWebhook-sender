@@ -1,7 +1,6 @@
-import requests #dependency
+import requests 
 
-url = "https://discord.com/api/webhooks/909804938396323860/ERHlv2euuke_8GQHDyRb2zCDVcvdFUyWYd1pls3pN9LEtWfNVLlv86PXbK0sAisQ8F7p" #webhook url, from here: https://i.imgur.com/f9XnAew.png
-while True:
+url = "https://discord.com/api/webhooks/909804938396323860/ERHlv2euuke_8GQHDyRb2zCDVcvdFUyWYd1pls3pN9LEtWfNVLlv86PXbK0sAisQ8F7p" 
     i = input()
     data = {
         "content" : i,
