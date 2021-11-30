@@ -1,6 +1,7 @@
 import requests 
 
-url = "" 
+url = ""
+while True:
     i = input()
     data = {
         "content" : i,
