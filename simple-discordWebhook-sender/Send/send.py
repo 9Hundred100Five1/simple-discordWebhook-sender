@@ -27,7 +27,7 @@ class sender:
         else:
             return print("전송완료, 코드 {}".format(req.status_code))
 
-    def runmachine(self):
+    def sends(self):
         asyncio.run(sender.send(self))
 
     
